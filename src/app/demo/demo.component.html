@@ -1,0 +1,33 @@
+<form (ngSubmit)="enviar()">
+    <p>CEP</p>
+    <input type="text" cepMask name="cep" [(ngModel)]="cep">
+    <br>
+    {{cep | json}}
+    <br>
+    <p>CPF/CNPJ</p>
+    <input type="text" cpfCnpjMask name="cpfCnpj" [(ngModel)]="cpfCnpj">
+    <br>
+    {{cpfCnpj | json}}
+    <br>
+    <p>CPF</p>
+    <input type="text" cpfMask name="cpf" [(ngModel)]="cpf">
+    <br>
+    {{cpf | json}}
+    <br>
+    <p>CNPJ</p>
+    <input type="text" cnpjMask name="cnpj" [(ngModel)]="cnpj">
+    <br>
+    {{cnpj | json}}
+    <br>
+    <p>Telefone</p>
+    <input type="text" telefoneMask name="tel" [(ngModel)]="telefone">
+    <br>
+    {{telefone | json}}
+    <br>
+    <p>Dinheiro</p>
+    <input type="text" dinheiroMask name="dinheiro" [(ngModel)]="dinheiro">
+    <br>
+    {{dinheiro | json}}
+    <br>
+    <input type="submit" name="Enviar">
+</form>
