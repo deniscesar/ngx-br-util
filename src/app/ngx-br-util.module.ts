@@ -8,6 +8,7 @@ import { CepModule } from "./modules/cep/cep.module";
 import { CpfCnpjModule } from "./modules/cpfCnpj/cpfCnpj.module";
 import { CnpjModule } from './modules/cnpj/cnpj.module';
 import { CpfModule } from './modules/cpf/cpf.module';
+import { CcModule } from './modules/cc/cc.module';
 
 export * from './pipes/pipes.module';
 
@@ -30,6 +31,7 @@ export * from './validators/ngx-br-util-validators'
     TelefoneModule,
     CepModule,   
     DinheiroModule,
+    CcModule,
     NgxBrUtilPipesModule
   ],
   exports: [
@@ -39,6 +41,7 @@ export * from './validators/ngx-br-util-validators'
     TelefoneModule,
     CepModule,
     DinheiroModule,
+    CcModule,
     NgxBrUtilPipesModule
   ]
 })

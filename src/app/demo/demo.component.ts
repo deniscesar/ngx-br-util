@@ -13,6 +13,7 @@ export class DemoComponent {
   public cnpj: string;
   public telefone: string;
   public dinheiro: string;
+  public cartao: string;
   
   constructor() {
   }
@@ -22,6 +23,7 @@ export class DemoComponent {
     console.log(this.cpf);
     console.log(this.telefone);
     console.log(this.dinheiro);
+    console.log(this.cartao);
   }
 
 }

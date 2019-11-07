@@ -29,5 +29,10 @@
     <br>
     {{dinheiro | json}}
     <br>
+    <p>Cartão</p>
+    <input type="text" ccMask name="dinheiro" [(ngModel)]="cartao">
+    <br>
+    {{cartao | json}}
+    <br>
     <input type="submit" name="Enviar">
 </form>

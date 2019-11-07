@@ -11,7 +11,7 @@
     "e2e": "ng e2e",
     "packagr": "ng-packagr -p ng-package.json"
   },
-  "dependencies": {  
+  "dependencies": {
     "cpf_cnpj": "^0.2.0",
     "vanilla-masker": "^1.2.0"
   },
@@ -28,7 +28,6 @@
     "core-js": "^2.4.1",
     "rxjs": "^5.5.2",
     "zone.js": "^0.8.14",
-
     "@angular-devkit/core": "^0.4.0",
     "@angular/cli": "1.5.2",
     "@angular/compiler-cli": "^5.0.0",
